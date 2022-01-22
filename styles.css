@@ -98,7 +98,7 @@ nav {
 
 .img-container img {
     width: 200px;
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -108,18 +108,29 @@ nav {
 }
 
 .section-two {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 30px;
+    /* padding: 100px 300px 100px; */
     height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+
 }
 
 .quote-source {
-    text-align: end;
+    
 }
