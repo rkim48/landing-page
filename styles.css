@@ -86,7 +86,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 70px;
     margin-bottom: 80px;
 
 }
@@ -94,14 +94,15 @@ nav {
 .img-container div {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 280px;
 }
 
 .img-container img {
-    width: 200px;
+    /* width: 200px; */
     border: 5px solid #3882F6;
     border-radius: 10px;
     box-sizing: border-box;
+    flex: 1;
 }
 
 .img-container p {
