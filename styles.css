@@ -136,24 +136,30 @@ nav {
     font-weight: 700;
 }
 
+.section-three {
+    margin: 0;
+}
+
 .call-to-action {
     display: flex;
-    width: 900px;
-    height: 150px;
+    /* width: 900px; */
+    /* height: 150px; */
     background-color: #3882F6;
     color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    margin: 80px auto 80px;
-    padding: 0 50px 0;
+    margin: 80px 200px 80px;
+    padding: 60px 50px 60px;
     gap: 60px;
     border-radius: 5px;
+    flex-wrap: wrap;
 }
 
 .section-three-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+ 
 }
 
 .call-to-action-p1 {
@@ -175,8 +181,7 @@ nav {
     border: 3px solid #E5E7EB;
     border-radius: 5px;
     color: #E5E7EB;
-    height: 40px;
-    width: 150px;
+    padding: 7px 50px 7px;
     font-size: 15px;
     
 }
