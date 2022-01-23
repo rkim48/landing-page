@@ -87,7 +87,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
 }
 
@@ -112,7 +112,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    /* padding: 100px 300px 100px; */
+    padding: 70px 0px 70px;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -133,5 +133,57 @@ nav {
 }
 
 .quote-source {
+    font-weight: 700;
+}
+
+.call-to-action {
+    display: flex;
+    width: 900px;
+    height: 150px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 80px;
+    padding: 0 50px 0;
+    gap: 60px;
+    border-radius: 5px;
+}
+
+.section-three-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action-p1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action-p2 {
+    font-size: 15px;
+}
+
+.section-three-text p {
+    margin: 0;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-style: none;
+    border: 3px solid #E5E7EB;
+    border-radius: 5px;
+    color: #E5E7EB;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
     
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px 0 20px;
 }
